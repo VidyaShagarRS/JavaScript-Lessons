@@ -1,0 +1,100 @@
+=== Comments in JavaScript ===
+
+// This is an in-line comment.
+
+/* This is a
+multi-line comment */. 
+
+==============================================
+
+=== Date Types in JavaScript ===
+
+var myFirstName = "Vidya"; // string
+var myLastName = "Shagar"; // string
+var myAge = 24; // Integer
+var myWeight = 60.50; // Float
+var is_Male = True; // Boolean.
+
+In variable "var" we can modify the value of variable with same variable name in "var",
+eg: var myName= "James";
+    var myName= "John";
+It executes the result.
+
+By using variable "let" we can't do that, if we do - It shows the error message,
+eg: let myName= "James";
+    let myName= "John";
+It shows the ERROR. But we can modify the value of " let myNmae = 'James'; " without assigning new variable like,
+eg: let myName= "James";
+        myName= "John";
+It executes the result.
+
+By using variable "const" we even can't change the value of existing variale of "const",
+eg: const myName= "James";
+          myName= "John";
+It shows the ERROR message.
+ 
+==============================================
+
+=== Concatenating String with Variables ===
+
+const myName = "Vidya Shagar RS";
+const myStr = "My Name is " + myName + " and I am well!";
+
+output: My Name is Vidya Shagar RS and I am well!
+
+==============================================
+
+=== Appending Variable to String ===
+
+const addStr= "fun, but at sometimes it looks complicated!";
+let myStr = "Learning to code is ";
+myStr += addStr;
+
+output: Learning to code is fun, but at sometimes it looks complicated!
+
+==============================================
+
+=== Find the Length of a String ===
+
+let findStrLen = "Hello John";
+                  0123456789
+console.log(findStrLen.length)
+
+output: 9
+
+==============================================
+
+=== Find the N-th Character in a String ===
+
+let findStrLen = "Hello John";
+                  0123456789
+console.log(findStrLen[6])
+
+output: J
+
+==============================================
+
+
+=== Find the Last Character in a String ===
+
+let findStrLen = "Hello John";
+                  0123456789
+alert(findStrLen[findStrLen.length -2])
+
+output: h
+
+==============================================
+
+=== Variable Concatenation ===
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+const wordBlanks = "The "+myAdjective+" "+myNoun+" "+myVerb+" "+myAdverb+".";
+
+output: The big dog ran quickly.
+
+==============================================
+
