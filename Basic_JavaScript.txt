@@ -98,3 +98,92 @@ output: The big dog ran quickly.
 
 ==============================================
 
+=== Store Multiple Values in one Variable using JavaScript Arrays ===
+
+let myArray = ["Vidya Shagar", 24]; // Name and Age in one Variable using Array.
+
+==============================================
+
+=== Nest one Array within Another Array ===
+
+let myArray = [["Cricket", "Players", 11], ["Kabaddi", "Player", 7], ["Volleyball", "Players", 6]];
+
+==============================================
+
+=== Modify Array Data With Indexes ===
+ 
+let myArray = [18, 64, 99];
+myArray[1] = 45;
+console.log(myArray);
+
+output: [18, 45, 99]
+
+==============================================
+
+=== Access Multi-Dimensional Arrays With Indexes ===
+
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+alert(myData);
+console.log(myArray[3][0][2]);
+
+output:(8) in alert, (12) in console.
+
+==============================================
+
+=== Manipulate Arrays With push() ===
+
+const myArray = [["John", 1], ["cat", 2]];
+myArray.push(["dog", 3]);
+console.log(myArray)
+
+output: [["John", 1], ["cat", 2], ["dog", 3]]
+
+==============================================
+
+=== Manipulate Arrays With pop() ===
+
+const myArray = [["Austin", 44], ["Rock", 48]];
+const removedFromMyArray = myArray.pop();
+console.log(myArray);
+console.log(removedFromMyArray);
+
+output: [["Austin", 44]]
+
+        ["Rock", 48]
+
+==============================================
+
+=== Manipulate Arrays With shift() ===
+
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift();
+console.log(myArray);
+console.log(removedFromMyArray);
+
+output: [ ["dog", 3] ]
+
+        ["John", 23]
+
+==============================================
+
+=== Manipulate Arrays With Unshift() ===
+
+const ourArray = ["Stimpson", "J", "cat"];
+ourArray.unshift("Happy");
+
+output: ["Happy", "Stimpson", "J", "cat"]
+
+==============================================
+
+=== Multi-Dimensional Array Containing Several Sub-Arrays ===
+
+const myList = [ ["T-shirt", 10], ["Shirt", 15], ["Jeans", 10], ["Tracks", 10], ["Shorts", 5] ];
+
+==============================================
