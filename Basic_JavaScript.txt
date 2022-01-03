@@ -7,7 +7,7 @@ multi-line comment */.
 
 ==============================================
 
-=== Date Types in JavaScript ===
+=== Data Types in JavaScript ===
 
 var myFirstName = "Vidya"; // string
 var myLastName = "Shagar"; // string
