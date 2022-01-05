@@ -236,3 +236,23 @@ myOutfit();
 output: sweater  // Inside the Function, LocalScope have the priority.
 
 ==============================================
+
+=== Use Conditional Logic with If Statements === 
+
+function trueOrFalse(wasThatTrue) {
+  
+   if (wasThatTrue == true){
+     console.log("Yes, that was true")
+   }
+   else{
+     console.log("No, that was false");
+   }
+}
+
+trueOrFalse(false)
+trueOrFalse(true)
+
+output: No, that was false
+        Yes, that was true
+
+==============================================
