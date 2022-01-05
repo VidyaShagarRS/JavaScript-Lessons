@@ -249,10 +249,10 @@ function trueOrFalse(wasThatTrue) {
    }
 }
 
-trueOrFalse(false)
 trueOrFalse(true)
+trueOrFalse(false)
 
-output: No, that was false
-        Yes, that was true
+output: Yes, that was true
+         No, that was false
 
 ==============================================
