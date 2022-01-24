@@ -256,3 +256,13 @@ output: Yes, that was true
          No, that was false
 
 ==============================================
+
+=== Else if Statements ===
+
+If (condition){
+Statement
+} else if (condition){
+Statement
+} else {
+Statement
+}
